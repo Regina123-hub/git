@@ -1,7 +1,12 @@
+import java.util.Scanner;
+
 public class Main {
     public static void main(String[] args) {
-        int a = 2;
-        int b = 3;
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("Enter number: ");
+        int a = scanner.nextInt();
+        System.out.println("Enter number: ");
+        int b = scanner.nextInt();
         System.out.println(a+b);
     }
 }
