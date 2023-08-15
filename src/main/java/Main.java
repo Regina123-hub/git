@@ -9,6 +9,8 @@ public class Main {
             System.out.println("""
                      1.Сложить 
                      2.Вычесть
+                     3.Умножить
+                     4.Поделить
                      3.Выход
                     """);
             input = scanner.nextInt();
@@ -27,6 +29,12 @@ public class Main {
                     System.out.println("Enter number: ");
                     int b = scanner.nextInt();
                     System.out.println(a - b);
+                }
+                case 3 -> {
+
+                }
+                case 4 -> {
+
                 }
 
             }
