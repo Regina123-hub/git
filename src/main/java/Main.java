@@ -31,10 +31,18 @@ public class Main {
                     System.out.println(a - b);
                 }
                 case 3 -> {
-
+                    System.out.println("Enter number: ");
+                    int a = scanner.nextInt();
+                    System.out.println("Enter number: ");
+                    int b = scanner.nextInt();
+                    System.out.println(a * b);
                 }
                 case 4 -> {
-
+                    System.out.println("Enter number: ");
+                    int a = scanner.nextInt();
+                    System.out.println("Enter number: ");
+                    int b = scanner.nextInt();
+                    System.out.println(a / b);
                 }
 
             }
